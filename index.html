@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BLM-SGAN Studio</title>
+  <meta name="description" content="BLM-SGAN: generate bird images from text descriptions.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230e7c86'/%3E%3Cpath d='M7 21c4-9 11-13 18-12-3 2-4 5-4 8 0 4-3 7-8 7-3 0-5-1-6-3z' fill='white'/%3E%3C/svg%3E">
+  <style>
+    :root { --bg: #f4f2ec; --text: #1d2022; --muted: #5f6468; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111314; --text: #e8e6e1; --muted: #9aa0a4; } }
+    html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+                 font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    .waking { position: fixed; inset: 0; display: grid; place-content: center; text-align: center; padding: 0 16px; }
+    .waking h1 { font-size: 22px; font-weight: 600; margin: 0 0 8px; }
+    .waking p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.5; }
+    iframe { position: fixed; inset: 0; width: 100%; height: 100%; border: 0; }
+  </style>
+</head>
+<body>
+  <div class="waking" aria-hidden="true">
+    <h1>BLM-SGAN Studio</h1>
+    <p>Starting the model server. After a quiet period this takes up to a minute.</p>
+  </div>
+  <iframe src="https://ahmed-abdellmoneim--blm-sgan.us-east.modal.run/" title="BLM-SGAN Studio"
+          allow="clipboard-write"></iframe>
+</body>
+</html>
